@@ -22,7 +22,7 @@ def getCertificate(name, role):
     font = ImageFont.truetype(font_path, 60)
     
     # Add Name
-    draw.text((900, 600), name, font=font, fill="black")
+    draw.text((750, 600), name, font=font, fill="black")
     
     # Add Role
     font = ImageFont.truetype(font_path, 40)
