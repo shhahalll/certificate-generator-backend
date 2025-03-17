@@ -13,7 +13,7 @@ from django.conf import settings
 
 def getCertificate(name, role):
     """Generates a certificate as a PDF."""
-    image_path = os.path.join(settings.BASE_DIR, 'api', 'templates', 'template.png')
+    image_path = os.path.join(settings.BASE_DIR, 'api', 'templates', 'templat.png')
     bg_image = Image.open(image_path)
     draw = ImageDraw.Draw(bg_image)
     
